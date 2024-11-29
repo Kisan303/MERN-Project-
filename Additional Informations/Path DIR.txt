@@ -1,0 +1,26 @@
+C0910925-MERN_Final_Assignment
+├── backend/                            <-- Backend (Express + MongoDB)
+│   ├── models/
+│   │   └── User.js                     <-- User model
+│   ├── routes/
+│   │   └── userRoutes.js               <-- User CRUD routes
+│   ├── app.js                          <-- Express server setup
+│   ├── package.json                    <-- Backend dependencies
+│   └── populateData.json              <-- File to populate user
+│   └── .env             
+├── frontend/                           <-- Frontend (React app)
+│   ├── public/
+│   │   └── index.html                  <-- The main HTML file
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── addUser.js              <-- Add User component
+│   │   │   ├── updateUser.js           <-- Update User component
+│   │   │   ├── viewUser.js             <-- View User component
+│   │   │   ├── layout.js               <-- Layout component
+│   │   │   ├── userDetail.js           <-- User Detailed component
+│   │   │   ├── Login.js                <-- Login component
+│   │   ├── App.js                      <-- Main App component
+│   │   ├── index.js                    <-- React root file
+│   ├── package.json                    <-- Frontend dependencies
+│   ├── .env                            <-- Environment variables (optional)
+└── .gitignore                          <-- To ignore unnecessary files
